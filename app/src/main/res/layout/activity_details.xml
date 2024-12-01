@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/themain"
+    tools:context=".Details" >
+
+    <ImageView
+        android:id="@+id/x"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/x_48px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="584dp"
+        android:layout_height="93dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:text="تم التصميم والتطوير بواسطة المبرمج : ياسر العنيس            للتواصل :  770997501 967+"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="549dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/panelBackground"
+        android:text="تطبيق &quot;تعليم الأحرف للأطفال&quot; هو تطبيق تعليمي مصمم خصيصاً لمساعدة الاطفال في تعلم الاحرف الهجائية والانجليزية بطريقة ممتعة وتفاعلية. يتضمن مجموعة من الانشطة التعليمية والفيديوهات التي تسعاد الأطفال على التعرف على الاحرف وتعلم كيفية نطقها بشكل صحيح. بالاضافة الئ ذالك يمكن للتطبيق أن يتضمن ميزات اضافية مثل الفيديوهات التعليمية , وأصوات مسلية, ورسوم جذابة لتعزيز عملية التعلم وجعلها أكثر متعة للأطفال."
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

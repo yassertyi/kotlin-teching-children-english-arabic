@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ActivityCharArabic">
+
+    <ImageView
+        android:id="@+id/imageArabic"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/aimg1" />
+
+    <TextView
+        android:id="@+id/textNameArabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:freezesText="false"
+        android:text="أرنب"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageArabic"
+        app:layout_constraintEnd_toStartOf="@+id/imageArabic"
+        app:layout_constraintStart_toEndOf="@+id/imgCharArabic"
+        app:layout_constraintTop_toTopOf="@+id/imageArabic" />
+
+    <ImageView
+        android:id="@+id/imgCharArabic"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
+        app:srcCompat="@drawable/a1" />
+
+    <ImageView
+        android:id="@+id/imgAudioArabic"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/voice" />
+
+    <ImageView
+        android:id="@+id/behindArabic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/chevron_left_80px" />
+
+    <ImageView
+        android:id="@+id/frontArabic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/chevron_right_80px" />
+
+    <ImageView
+        android:id="@+id/imageViewOut"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/out3" />
+
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/music_500px" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
